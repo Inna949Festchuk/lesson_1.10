@@ -2,7 +2,8 @@ import json
 # Открытие JSON
 # with open("files/newsafr.json") as f:
 #     json_data = json.load(f)
-# news_list = json_data['rss']['channel']['items'] # Перебираем иерархическую структуру и добираемся до нужных нам данных
+# news_list = json_data['rss']['channel']['items'] # Перебираем иерархическую 
+# структуру от корня и далее и добираемся до нужных нам данных !ЭТО ВАЖНО! 
 # print(news_list[0])
 # for news in news_list:
 #     print(news['title'])
